@@ -17,12 +17,9 @@ namespace TestEvenOdd
 
             //Reverse a string
             string str = "my name is samuel";
-
             string str_parts = String.Join(" ", str.Split(' ').Select(x => new String(x.Reverse().ToArray())));
-
-
             Console.WriteLine(str_parts);
-
+            //Reverse a string
 
             Console.WriteLine("Count of even numbers = {0} and Count of odd numbers = {1}", results[0], results[1]);
         }
